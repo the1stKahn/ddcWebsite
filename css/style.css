@@ -382,6 +382,30 @@ body {
   }
 }
 
+@media (max-width: 480px) {
+  .navbar {
+    padding: 16px 20px;
+    gap: 12px;
+  }
+
+  .navbar .logo img {
+    height: 48px;
+  }
+
+  .navbar .logo-text {
+    font-size: 17px;
+  }
+
+  .navbar .btn-pill {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+
+  .navbar .nav-links {
+    padding: 20px;
+  }
+}
+
 .site-footer {
   background: #e9ebee;
   padding: 64px 40px 32px;
