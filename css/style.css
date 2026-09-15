@@ -406,6 +406,24 @@ body {
   }
 }
 
+@media (max-width: 480px) {
+  .about-image img {
+    height: 240px;
+  }
+
+  .about-content h2 {
+    font-size: 1.7rem;
+  }
+
+  .about-text-card {
+    padding: 20px 16px;
+  }
+
+  .about-text-card p {
+    font-size: 0.95rem;
+  }
+}
+
 .site-footer {
   background: #e9ebee;
   padding: 64px 40px 32px;
@@ -585,12 +603,24 @@ body {
 }
 
 @media (max-width: 900px) {
+  .about-section {
+    padding: 64px 24px;
+  }
+
   .about-grid {
     grid-template-columns: 1fr;
   }
 
   .about-image img {
     height: 340px;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-text-card {
+    padding: 24px 20px;
   }
 }
 
@@ -680,6 +710,147 @@ body {
 
   .why-choose-cards {
     grid-template-columns: 1fr;
+  }
+}
+
+.who-we-care-section {
+  background: #f7f8fa;
+  padding: 90px 40px;
+}
+
+.who-we-care-header {
+  max-width: 700px;
+  margin: 0 auto 56px;
+  text-align: center;
+}
+
+.who-we-care-header .eyebrow {
+  margin-bottom: 16px;
+  color: #64ae01;
+}
+
+.who-we-care-header h2 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: rgb(35, 151, 245);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.who-we-care-header p {
+  color: #5a6472;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.who-we-care-grid {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.care-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 28px 26px;
+  box-shadow: 0 14px 34px rgba(10, 20, 35, 0.1);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.care-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(10, 20, 35, 0.16);
+}
+
+.care-card h3 {
+  color: #0a1423;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.care-card p {
+  color: #5a6472;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.care-card--featured {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, rgb(35, 151, 245), #1568c4);
+  padding: 48px 52px;
+  box-shadow: 0 24px 50px rgba(35, 151, 245, 0.35);
+}
+
+.care-card--featured:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 58px rgba(35, 151, 245, 0.4);
+}
+
+.care-badge {
+  display: inline-block;
+  background: #64ae01;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 6px 16px;
+  border-radius: 999px;
+  margin-bottom: 18px;
+}
+
+.care-card--featured h3 {
+  color: #fff;
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.care-card--featured p {
+  color: #eaf3ff;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  max-width: 700px;
+}
+
+@media (max-width: 900px) {
+  .who-we-care-section {
+    padding: 64px 24px;
+  }
+
+  .who-we-care-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .care-card--featured {
+    padding: 36px 32px;
+  }
+
+  .care-card--featured h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .who-we-care-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .care-card--featured {
+    padding: 30px 24px;
+  }
+
+  .care-card--featured h3 {
+    font-size: 1.7rem;
+  }
+
+  .care-card--featured p {
+    font-size: 1rem;
   }
 }
 
