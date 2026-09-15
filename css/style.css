@@ -49,7 +49,7 @@ body {
 }
 
 .navbar .logo img {
-  height: 64px;
+  height: 84px;
 }
 
 .navbar .logo-text {
@@ -389,7 +389,7 @@ body {
   }
 
   .navbar .logo img {
-    height: 48px;
+    height: 60px;
   }
 
   .navbar .logo-text {
@@ -450,7 +450,7 @@ body {
 }
 
 .footer-logo img {
-  height: 48px;
+  height: 64px;
 }
 
 .footer-logo-text {
@@ -816,6 +816,18 @@ body {
   font-size: 1.15rem;
   line-height: 1.7;
   max-width: 700px;
+  margin-bottom: 28px;
+}
+
+.btn-card-featured {
+  background: #fff;
+  color: rgb(35, 151, 245);
+  padding: 16px 32px;
+}
+
+.btn-card-featured:hover {
+  background: #64ae01;
+  color: #fff;
 }
 
 @media (max-width: 900px) {
