@@ -1178,6 +1178,12 @@ body {
   line-height: 1.6;
 }
 
+.process-cta {
+  max-width: 1300px;
+  margin: 48px auto 0;
+  text-align: center;
+}
+
 @media (max-width: 1024px) {
   .process-grid {
     grid-template-columns: repeat(2, 1fr);

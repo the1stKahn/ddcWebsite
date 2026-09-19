@@ -1,0 +1,143 @@
+.required-mark {
+  color: #d64545;
+}
+
+.intake-form {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.intake-form fieldset {
+  border: 1px solid rgba(10, 20, 35, 0.08);
+  border-radius: 18px;
+  background: #f7f8fa;
+  padding: 28px 32px 32px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.intake-form legend {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: rgb(35, 151, 245);
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.form-field label {
+  color: #0a1423;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  font-family: inherit;
+  font-size: 15px;
+  color: #0a1423;
+  background: #fff;
+  border: 1px solid rgba(10, 20, 35, 0.15);
+  border-radius: 10px;
+  padding: 12px 14px;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.form-field textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: rgb(35, 151, 245);
+  box-shadow: 0 0 0 3px rgba(35, 151, 245, 0.2);
+}
+
+.form-field.invalid input,
+.form-field.invalid select,
+.form-field.invalid textarea {
+  border-color: #d64545;
+}
+
+.form-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: #3f4750;
+  font-size: 15px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.form-consent input {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  accent-color: rgb(35, 151, 245);
+}
+
+.form-consent.invalid {
+  color: #d64545;
+}
+
+.intake-form .btn {
+  align-self: flex-start;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.intake-form .form-status {
+  margin: 0;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: rgba(100, 174, 1, 0.12);
+  color: #3f6b00;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.intake-form .form-status.error {
+  background: rgba(214, 69, 69, 0.1);
+  color: #a32f2f;
+}
+
+@media (max-width: 600px) {
+  .intake-form fieldset {
+    padding: 24px 20px 26px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .intake-form .btn {
+    align-self: stretch;
+    white-space: normal;
+  }
+}
