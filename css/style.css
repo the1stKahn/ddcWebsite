@@ -46,6 +46,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
 }
 
 .navbar .logo img {
@@ -447,6 +448,7 @@ body {
   align-items: center;
   gap: 12px;
   margin-bottom: 20px;
+  text-decoration: none;
 }
 
 .footer-logo img {
@@ -1095,6 +1097,107 @@ body {
 
 @media (max-width: 900px) {
   .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.process-section {
+  background: #f7f8fa;
+  padding: 90px 40px;
+}
+
+.process-header {
+  max-width: 700px;
+  margin: 0 auto 56px;
+  text-align: center;
+}
+
+.process-header h2 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: rgb(35, 151, 245);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.process-header h3 {
+  color: #64ae01;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.process-grid {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.process-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 26px;
+  box-shadow: 0 14px 34px rgba(10, 20, 35, 0.1);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(10, 20, 35, 0.16);
+}
+
+.process-step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgb(35, 151, 245);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.process-card h4 {
+  color: #0a1423;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.process-card p {
+  color: #5a6472;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .process-section {
+    padding: 64px 24px;
+  }
+
+  .process-header {
+    margin-bottom: 40px;
+  }
+
+  .process-header h2 {
+    font-size: 1.9rem;
+  }
+
+  .process-grid {
     grid-template-columns: 1fr;
   }
 }
