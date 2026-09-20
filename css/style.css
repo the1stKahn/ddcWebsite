@@ -627,7 +627,7 @@ body {
 }
 
 .why-choose-section {
-  background: #fff;
+  background: #f7f8fa;
   padding: 90px 40px;
 }
 
@@ -716,7 +716,7 @@ body {
 }
 
 .who-we-care-section {
-  background: #f7f8fa;
+  background: #fff;
   padding: 90px 40px;
 }
 
@@ -755,10 +755,10 @@ body {
 }
 
 .care-card {
-  background: #fff;
+  background: #f7f8fa;
+  border: 1px solid rgba(10, 20, 35, 0.08);
   border-radius: 16px;
   padding: 28px 26px;
-  box-shadow: 0 14px 34px rgba(10, 20, 35, 0.1);
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
@@ -785,6 +785,7 @@ body {
 .care-card--featured {
   grid-column: 1 / -1;
   background: linear-gradient(135deg, rgb(35, 151, 245), #1568c4);
+  border: none;
   padding: 48px 52px;
   box-shadow: 0 24px 50px rgba(35, 151, 245, 0.35);
 }
@@ -1022,6 +1023,7 @@ body {
   border: 1px solid rgba(10, 20, 35, 0.08);
   border-radius: 18px;
   padding: 36px 32px;
+  box-shadow: 0 14px 34px rgba(10, 20, 35, 0.12);
 }
 
 .service-icon {
@@ -1102,7 +1104,7 @@ body {
 }
 
 .process-section {
-  background: #f7f8fa;
+  background: #fff;
   padding: 90px 40px;
 }
 
@@ -1137,10 +1139,10 @@ body {
 }
 
 .process-card {
-  background: #fff;
+  background: #f7f8fa;
+  border: 1px solid rgba(10, 20, 35, 0.08);
   border-radius: 16px;
   padding: 32px 26px;
-  box-shadow: 0 14px 34px rgba(10, 20, 35, 0.1);
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
