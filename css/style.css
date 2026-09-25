@@ -544,7 +544,7 @@ body {
 }
 
 .about-section {
-  background: #f7f8fa;
+  background: #f4f7fb;
   padding: 90px 40px;
 }
 
@@ -574,13 +574,14 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: rgb(35, 151, 245);
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 300;
+  letter-spacing: -0.02em;
   line-height: 1.2;
   margin-bottom: 20px;
 }
 
 .about-text-card {
-  background: #f7f8fa;
+  background: #fff;
   border: 1px solid rgba(10, 20, 35, 0.08);
   border-radius: 18px;
   padding: 28px 32px;
@@ -627,7 +628,7 @@ body {
 }
 
 .why-choose-section {
-  background: #f7f8fa;
+  background: #f4f7fb;
   padding: 90px 40px;
 }
 
@@ -655,7 +656,8 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: rgb(35, 151, 245);
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 300;
+  letter-spacing: -0.02em;
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -716,7 +718,7 @@ body {
 }
 
 .who-we-care-section {
-  background: #fff;
+  background: #f3faec;
   padding: 90px 40px;
 }
 
@@ -735,7 +737,8 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: rgb(35, 151, 245);
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 300;
+  letter-spacing: -0.02em;
   line-height: 1.2;
   margin-bottom: 16px;
 }
@@ -755,7 +758,7 @@ body {
 }
 
 .care-card {
-  background: #f7f8fa;
+  background: #fff;
   border: 1px solid rgba(10, 20, 35, 0.08);
   border-radius: 16px;
   padding: 28px 26px;
@@ -870,7 +873,7 @@ body {
 }
 
 .location-section {
-  background: #f7f8fa;
+  background: #f4f7fb;
   padding: 90px 40px;
 }
 
@@ -889,7 +892,8 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: rgb(35, 151, 245);
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 300;
+  letter-spacing: -0.02em;
   margin-bottom: 16px;
 }
 
@@ -978,7 +982,7 @@ body {
 }
 
 .services-summary {
-  background: #fff;
+  background: #f4f7fb;
   padding: 90px 40px;
 }
 
@@ -997,7 +1001,8 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: rgb(35, 151, 245);
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 300;
+  letter-spacing: -0.02em;
   margin-bottom: 16px;
 }
 
@@ -1019,7 +1024,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: #f7f8fa;
+  background: #fff;
   border: 1px solid rgba(10, 20, 35, 0.08);
   border-radius: 18px;
   padding: 36px 32px;
@@ -1104,7 +1109,7 @@ body {
 }
 
 .process-section {
-  background: #fff;
+  background: #f3faec;
   padding: 90px 40px;
 }
 
@@ -1118,7 +1123,8 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: rgb(35, 151, 245);
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 300;
+  letter-spacing: -0.02em;
   line-height: 1.2;
   margin-bottom: 12px;
 }
@@ -1139,7 +1145,7 @@ body {
 }
 
 .process-card {
-  background: #f7f8fa;
+  background: #fff;
   border: 1px solid rgba(10, 20, 35, 0.08);
   border-radius: 16px;
   padding: 32px 26px;

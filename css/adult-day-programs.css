@@ -55,7 +55,8 @@
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: #0a1423;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 300;
+  letter-spacing: -0.02em;
   margin-bottom: 18px;
 }
 
