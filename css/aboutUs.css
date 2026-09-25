@@ -1,10 +1,27 @@
 .page-header {
   position: relative;
-  background: #0a1423;
+  background: #0a1423 url("../images/AboutUsHeroImage.png") no-repeat center
+    center;
+  background-size: cover;
   padding-bottom: 70px;
 }
 
+.page-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(10, 20, 35, 0.88) 0%,
+    rgba(10, 25, 45, 0.72) 45%,
+    rgba(10, 25, 45, 0.4) 100%
+  );
+  z-index: 0;
+}
+
 .page-header-content {
+  position: relative;
+  z-index: 1;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px 40px 0;
